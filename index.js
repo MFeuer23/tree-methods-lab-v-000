@@ -42,8 +42,7 @@ function max(node) {
   }
 }function max(node) {
   if (node.right) {
-    max(rightNode)
-  } else {
-    return node
-  }
+    max(node.right)
+  } 
+  return node
 }
