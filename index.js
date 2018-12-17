@@ -31,7 +31,7 @@ function findOrAdd(rootNode, newNode){
 
 function max(node) {
   if (node.right) {
-    max(node.right)
+    return max(node.right)
   } else {
     console.log(node)
     return node
