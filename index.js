@@ -1,11 +1,14 @@
 function inOrder(node) {
+  let order = []
   if(node.left) {
     inOrder(node.left)
   }
+  order.push(node.data)
   console.log(node.data)
   if(node.right) {
     inOrder(node.right)
   }
+  return order
 }
 
 function findOrAdd(rootNode, newNode){
