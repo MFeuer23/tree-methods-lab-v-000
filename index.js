@@ -34,7 +34,7 @@ function max(node) {
   if (node.right) {
     max(node.right)
   } else {
-    maxNode = node
+    node
   }
-  return maxNode
+
 }
