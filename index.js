@@ -33,7 +33,7 @@ function max(node) {
   let maxNode = node
   if (node.right) {
     maxNode = node.right
-    max(node.right)
+    max(maxNode.right)
     
   } 
    return maxNode.right
