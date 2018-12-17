@@ -36,5 +36,5 @@ function max(node) {
     max(node.right)
     
   } 
-   return node.right
+   return maxNode.right
 }
