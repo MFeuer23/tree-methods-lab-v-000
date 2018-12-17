@@ -30,11 +30,12 @@ function findOrAdd(rootNode, newNode){
 
 
 function max(node) {
-  let currentNode = node
+  let currentNode
   if (node.right) {
     max(node.right)
   } else {
     currentNode = node
+  console.log(node)
   }
   return currentNode
 }
