@@ -38,6 +38,7 @@ function max(node) {
   console.log(node)
   console.log(currentNode)
   }
+    console.log(currentNode)
   return currentNode
-  console.log(currentNode)
+
 }
