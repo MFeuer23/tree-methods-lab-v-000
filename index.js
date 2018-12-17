@@ -39,4 +39,5 @@ function max(node) {
   console.log(currentNode)
   }
   return currentNode
+  console.log(currentNode)
 }
