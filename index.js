@@ -35,5 +35,5 @@ function max(node) {
   } else {
     console.log(node)
   }
-  console.log(node)
+  return node
 }
