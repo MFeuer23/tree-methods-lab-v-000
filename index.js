@@ -36,6 +36,6 @@ function max(node) {
     max(currentNode)
   
   } else {
-   return node
+   return currentNode
   }
 }
