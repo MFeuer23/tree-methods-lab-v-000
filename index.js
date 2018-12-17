@@ -36,4 +36,5 @@ function max(node) {
   } else {
     maxNode = node
   }
+  return maxNodeßß
 }
