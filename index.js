@@ -33,6 +33,7 @@ function max(node) {
   if (node.right) {
     max(node.right)
   } else {
+    console.log(node)
     return node
   }
 
