@@ -34,7 +34,7 @@ function max(node) {
   if (node.right) {
     max(node.right)
   } else {
-    console.log(what)
+    console.log("what")
     return node
   }
 }
