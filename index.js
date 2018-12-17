@@ -29,11 +29,9 @@ function findOrAdd(rootNode, newNode){
 }
 
 function max(node) {
-  let rightNode = node
   if (node.right) {
-    rightNode = node.right
     max(rightNode)
   } else {
-    return rightNode
+    return node
   }
 }
