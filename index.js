@@ -1,15 +1,11 @@
 function inOrder(node) {
-  let order = []
   if(node.left) {
     inOrder(node.left)
   }
-
   console.log(node.data)
-    order.push(node.data)
   if(node.right) {
     inOrder(node.right)
   }
-  return order
 }
 
 function findOrAdd(rootNode, newNode){
@@ -34,5 +30,12 @@ function findOrAdd(rootNode, newNode){
 
 
 function max(node) {
- return inOrder(node)
+ let currentNode = node.right
+  console.log(currentNode)
+  if (currentNode.right) {
+    max(currentNode)
+  
+  } else {
+   return "hello"
+  }
 }
