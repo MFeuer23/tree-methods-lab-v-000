@@ -14,6 +14,8 @@ function findOrAdd(rootNode, newNode){
       currentNode = rootNode.left
       if(currentNode){
         findOrAdd(currentNode, newNode)
+      } else if (currentNode == rootNode) {
+        return true
       } else {
         rootNode.left = newNode
       }
