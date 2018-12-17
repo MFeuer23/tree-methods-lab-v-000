@@ -3,8 +3,9 @@ function inOrder(node) {
   if(node.left) {
     inOrder(node.left)
   }
-  order.push(node.data)
+
   console.log(node.data)
+    order.push(node.data)
   if(node.right) {
     inOrder(node.right)
   }
