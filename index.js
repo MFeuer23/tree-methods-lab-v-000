@@ -34,6 +34,6 @@ function max(node) {
     max(node.right)
   } else {
     console.log(node)
-    return true
   }
+  console.log(node)
 }
