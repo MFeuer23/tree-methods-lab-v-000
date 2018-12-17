@@ -36,3 +36,11 @@ function max(node) {
     return node
   }
 }
+
+function min(node) {
+  if (node.left) {
+    return min(node.left)
+  } else {
+    return node
+  }
+}
