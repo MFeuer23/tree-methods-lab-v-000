@@ -33,12 +33,5 @@ function findOrAdd(rootNode, newNode){
 
 
 function max(node) {
- let currentNode = node.right
-  console.log(currentNode)
-  if (currentNode.right) {
-    max(currentNode)
-  
-  } else {
-   return "hello"
-  }
+ return inOrder(node)
 }
